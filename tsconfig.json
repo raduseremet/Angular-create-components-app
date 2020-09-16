@@ -11,8 +11,10 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "module": "es2020",
-    "lib": [
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+      "lib": [
       "es2018",
       "dom"
     ]
